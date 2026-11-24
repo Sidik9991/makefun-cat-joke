@@ -54,6 +54,22 @@ const CANDIDATES: Candidate[] = [
     line: "My cat stares at the empty wall for an hour every night. I pay rent; she runs the cinema.",
     scores: [2, 1, 2, 2, 1],
   },
+  // --- Pass 2: 3 new challengers, re-judged against the pass-1 winner ---
+  {
+    // Lap vs laptop: she is not cuddling, she is closing my tabs.
+    line: "My cat only sits on my lap when my laptop is there — she's not cuddling me, she's closing my tabs.",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    // 3 a.m. fire alarm for a bathroom door: the emergency is invented.
+    line: "My cat ignored me all day, then at 3 a.m. screamed at the bathroom door like the house was on fire.",
+    scores: [2, 2, 1, 1, 2],
+  },
+  {
+    // The cat flap, unused: the front door, held open by staff.
+    line: "The cat flap was for the cat. The cat uses the front door now and expects me to hold it.",
+    scores: [2, 1, 2, 2, 2],
+  },
 ];
 
 function total(c: Candidate): number {
